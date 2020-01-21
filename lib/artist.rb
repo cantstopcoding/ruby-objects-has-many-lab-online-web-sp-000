@@ -30,4 +30,8 @@ class Artist
   def self.song_count 
     Song.all.count
   end 
+  
+  def add_post(post)
+    post.author = self 
+  end 
 end 
