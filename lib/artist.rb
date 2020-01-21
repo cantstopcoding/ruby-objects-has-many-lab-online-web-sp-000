@@ -31,11 +31,4 @@ class Artist
     Song.all.count
   end 
   
-  def add_post(post)
-    post.author = self 
-  end 
-  
-  def add_post_by_title
-    
-  end 
 end 
