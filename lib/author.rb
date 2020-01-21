@@ -18,4 +18,8 @@ class Author
     name_of_post = Post.new(post_name)
     add_post(name_of_post)
   end 
+  
+  def post_count 
+    
+  end 
 end 
