@@ -13,8 +13,8 @@ class Artist
   end 
   
   def add_song(song)
-    song.artist = self 
-  end 
+    song.artist = self
+  end
   
   # I need to define an error called songs 
   def songs 
