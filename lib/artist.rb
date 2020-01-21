@@ -28,6 +28,7 @@ class Artist
   end 
   
   def self.song_count 
+    # I have to access the songs
     binding.pry 
   end 
 end 
