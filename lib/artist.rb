@@ -28,7 +28,8 @@ class Artist
   end 
   
   def self.song_count 
-    # I have to access the songs
+    # I have to access the songs of the artists
+    # Can I access the songs in song.rb
     self.all.count 
   end 
 end 
