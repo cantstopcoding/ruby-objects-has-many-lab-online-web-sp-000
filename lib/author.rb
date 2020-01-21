@@ -8,5 +8,5 @@ class Author
     @@all << self 
   end 
   
-  
+  self.all 
 end 
